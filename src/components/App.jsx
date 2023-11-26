@@ -6,7 +6,6 @@ import Filter from './Filter/Filter';
 
 const App = () => {
   const storage = JSON.parse(localStorage.getItem('contacts'));
-  console.log(storage);
 
   const [contacts, setContacts] = useState(storage || []);
 
